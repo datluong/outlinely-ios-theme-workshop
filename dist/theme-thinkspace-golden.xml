@@ -4,13 +4,35 @@
     <type>light</type>
     <background-color>#fbfbfb</background-color>
     <text-color>#464646</text-color>
-    <selection-color>#F5E8B3</selection-color>
-    <accent-color-one>#E3BA24</accent-color-one>
-    <accent-color-two>#E3BA24</accent-color-two>
+    <selection-color>hsb(47,27,96)</selection-color>
+    <accent-color-one>hsb(47,84,89)</accent-color-one>
+    <accent-color-two>hsb(47,84,89)</accent-color-two>
     <note-color>#808080</note-color>
-    <caret-color>#FFA91F</caret-color>
-    <guide-color>#F2E5B1</guide-color>
-    <expander-color>#E3BA24</expander-color>
-    <markup-color>#E3BA24</markup-color>
-    <checkmark-color>#E3BA24</checkmark-color>
+    <caret-color>hsb(37,88,100)</caret-color>
+    <guide-color>hsb(47,27,95)</guide-color>
+    <expander-color>hsb(47,84,89)</expander-color>
+    <markup-color>hsb(47,84,89)</markup-color>
+    <checkmark-color>hsb(47,84,89)</checkmark-color>
+    <user-interface>
+        <ui-general>
+          <ui-general-divider-color>hsb(47,2,85)</ui-general-divider-color>
+        </ui-general>
+        <ui-navigation>
+          <ui-navigation-bar-tint-color>#fafafa</ui-navigation-bar-tint-color>
+          <ui-navigation-bar-text-color>#000000</ui-navigation-bar-text-color>
+          <ui-navigation-bar-divider-color>hsb(47,2,85)</ui-navigation-bar-divider-color>
+          <ui-navigation-tint-color>hsb(47,84,89)</ui-navigation-tint-color>
+        </ui-navigation>
+        <ui-table>
+            <ui-table-header-background-color>hsb(47,2,96)</ui-table-header-background-color>
+            <ui-table-header-text-color>#000000</ui-table-header-text-color>
+            <ui-table-divider-color>hsb(47,2,88)</ui-table-divider-color>
+            <ui-table-background-color>#fbfbfb</ui-table-background-color>
+            <ui-table-cell-active-background-color>hsb(47,84,84)</ui-table-cell-active-background-color>
+            <ui-table-cell-idle-background-color>hsb(47,2,86)</ui-table-cell-idle-background-color>
+            <ui-table-cell-text-color>#454545</ui-table-cell-text-color>
+            <ui-table-cell-subtitle-text-color>#808080</ui-table-cell-subtitle-text-color>
+            <ui-table-cell-tint-color>hsb(47,84,89)</ui-table-cell-tint-color>
+        </ui-table>
+    </user-interface>
 </theme>
