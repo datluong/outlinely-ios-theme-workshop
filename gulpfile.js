@@ -36,7 +36,7 @@ gulp.task('theme-darkdev', function() {
   return gulp.src('./src/theme-darkdev.mustache')
     .pipe(mustache({
         accentColor: "#63caf0",
-        tintColor: "#1DB7F0"
+        tintColor: "#1DA9F0"
     }))
     .pipe(rename({
         extname: ".xml",

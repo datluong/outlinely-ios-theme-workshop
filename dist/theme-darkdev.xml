@@ -14,24 +14,29 @@
     <checkmark-color>#686868</checkmark-color>
     <user-interface>
         <ui-general>
-            <ui-general-divider-color>#686868</ui-general-divider-color>
+            <ui-general-divider-color>hsb(0,0,25)</ui-general-divider-color>
         </ui-general>
+        <ui-toolbar>
+          <ui-toolbar-image-color>#f2f2f2</ui-toolbar-image-color>
+          <ui-toolbar-tint-color>#1DA9F0</ui-toolbar-tint-color>
+          <ui-toolbar-background-color>#1c1c1c</ui-toolbar-background-color>
+        </ui-toolbar>
         <ui-navigation>
-            <ui-navigation-tint-color>#1DB7F0</ui-navigation-tint-color>
-            <ui-navigation-bar-tint-color>#363636</ui-navigation-bar-tint-color>
+            <ui-navigation-tint-color>#1DA9F0</ui-navigation-tint-color>
+            <ui-navigation-bar-tint-color>hsb(0,0,6)</ui-navigation-bar-tint-color>
             <ui-navigation-bar-text-color>#f2f2f2</ui-navigation-bar-text-color>
-            <ui-navigation-bar-divider-color>#686868</ui-navigation-bar-divider-color>
+            <ui-navigation-bar-divider-color>hsb(0,0,25)</ui-navigation-bar-divider-color>
         </ui-navigation>
         <ui-table>
-            <ui-table-header-background-color>#2e2e2e</ui-table-header-background-color>
-            <ui-table-header-text-color>#e8e8e8</ui-table-header-text-color>
-            <ui-table-divider-color>#525252</ui-table-divider-color>
+            <ui-table-header-background-color>hsb(0,0,16)</ui-table-header-background-color>
+            <ui-table-header-text-color>hsb(0,0,91)</ui-table-header-text-color>
+            <ui-table-divider-color>hsb(0,0,20)</ui-table-divider-color>
             <ui-table-background-color>#1c1c1c</ui-table-background-color>
-            <ui-table-cell-active-background-color>hsb(196,87,94)</ui-table-cell-active-background-color>
-            <ui-table-cell-idle-background-color>#3d3d3d</ui-table-cell-idle-background-color>
+            <ui-table-cell-active-background-color>hsb(200,82,86)</ui-table-cell-active-background-color>
+            <ui-table-cell-idle-background-color>hsb(0,0,25)</ui-table-cell-idle-background-color>
             <ui-table-cell-text-color>#e8e8e8</ui-table-cell-text-color>
             <ui-table-cell-subtitle-text-color>#cccccc</ui-table-cell-subtitle-text-color>
-            <ui-table-cell-tint-color>#1DB7F0</ui-table-cell-tint-color>
+            <ui-table-cell-tint-color>#1DA9F0</ui-table-cell-tint-color>
         </ui-table>
     </user-interface>
 </theme>

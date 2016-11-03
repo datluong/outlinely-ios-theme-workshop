@@ -17,6 +17,11 @@
         <ui-general>
           <ui-general-divider-color>hsb(188,2,85)</ui-general-divider-color>
         </ui-general>
+        <ui-toolbar>
+          <ui-toolbar-image-color>#464646</ui-toolbar-image-color>
+          <ui-toolbar-tint-color>hsb(188,91,80)</ui-toolbar-tint-color>
+          <ui-toolbar-background-color>#fcfcfc</ui-toolbar-background-color>
+        </ui-toolbar>
         <ui-navigation>
           <ui-navigation-bar-tint-color>#fafafa</ui-navigation-bar-tint-color>
           <ui-navigation-bar-text-color>#000000</ui-navigation-bar-text-color>
