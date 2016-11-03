@@ -39,7 +39,7 @@ gulp.task('theme-darkdev', function() {
         tintColor: "#1DA9F0"
     }))
     .pipe(rename({
-        extname: ".xml",
+        extname: ".xml"
     }))
     .pipe(gulp.dest('./dist'))
 });
@@ -58,20 +58,32 @@ gulp.task('theme-maestro', function() {
         brights8: "76"
     }))
     .pipe(rename({
-        extname: ".xml",
+        extname: ".xml"
     }))
     .pipe(gulp.dest('./dist'))
 });
 
 
-    /**
-gulp.task('markdown', function() {
-    return gulp.src('md/*.md')
-                    .pipe(markdown())
-                    .pipe(wrap("{{define \"outlinely_docs_article\"}}\n\n <%= contents %>\n\n{{end}}"))
-                    .pipe(gulp.dest("templates/docs"));
-});**/
+gulp.task('theme-maestrox', function() {
+  return gulp.src('./src/theme-maestro.mustache')
+    .pipe(mustache({
+        accentColor: "hsb({{hue}},80,84)",
+        tintColor: "hsb({{hue}},80,84)",
+        hue: "{{hue}}",
+        sat: "80",
+        lowsat: "60",
+        satp8: "88",
+        bright: "84",
+        lowbright: "40",
+        brights8: "76"
+    }))
+    .pipe(rename({
+        extname: ".xml",
+        suffix: "-x"
+    }))
+    .pipe(gulp.dest('./dist'))
+});
 
-gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro'], function() {
+gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox'], function() {
 });
 
