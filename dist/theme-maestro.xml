@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+    <name>Maestro</name>
+    <type>dark</type>
+    <background-color>hsb(0,0,18)</background-color>
+    <text-color>hsb(0,0,85)</text-color>
+    <selection-color>hsb(45,60,40)</selection-color>
+    <accent-color-one>hsb(45,80,84)</accent-color-one>
+    <accent-color-two>hsb(45,80,84)</accent-color-two>
+    <note-color>hsb(0,0,61)</note-color>
+    <caret-color>hsb(45,88,84)</caret-color>
+    <guide-color>hsb(45,80,40)</guide-color>
+    <expander-color>hsb(45,80,84)</expander-color>
+    <markup-color>hsb(45,80,84)</markup-color>
+    <checkmark-color>hsb(45,80,84)</checkmark-color>
+    <user-interface>
+        <ui-general>
+            <ui-general-divider-color>hsb(0,0,25)</ui-general-divider-color>
+        </ui-general>
+        <ui-toolbar>
+          <ui-toolbar-image-color>#f2f2f2</ui-toolbar-image-color>
+          <ui-toolbar-tint-color>hsb(45,80,84)</ui-toolbar-tint-color>
+          <ui-toolbar-background-color>hsb(0,0,18)</ui-toolbar-background-color>
+        </ui-toolbar>
+        <ui-navigation>
+            <ui-navigation-tint-color>hsb(45,80,84)</ui-navigation-tint-color>
+            <ui-navigation-bar-tint-color>hsb(0,0,12)</ui-navigation-bar-tint-color>
+            <ui-navigation-bar-text-color>hsb(0,0,95)</ui-navigation-bar-text-color>
+            <ui-navigation-bar-divider-color>hsb(0,0,25)</ui-navigation-bar-divider-color>
+        </ui-navigation>
+        <ui-table>
+            <ui-table-header-background-color>hsb(0,0,14)</ui-table-header-background-color>
+            <ui-table-header-text-color>hsb(0,0,91)</ui-table-header-text-color>
+            <ui-table-divider-color>hsb(0,0,22)</ui-table-divider-color>
+            <ui-table-background-color>hsb(0,0,18)</ui-table-background-color>
+            <ui-table-cell-active-background-color>hsb(45,80,76)</ui-table-cell-active-background-color>
+            <ui-table-cell-idle-background-color>hsb(0,0,23)</ui-table-cell-idle-background-color>
+            <ui-table-cell-text-color>hsb(0,0,91)</ui-table-cell-text-color>
+            <ui-table-cell-subtitle-text-color>hsb(0,0,80)</ui-table-cell-subtitle-text-color>
+            <ui-table-cell-tint-color>hsb(45,80,84)</ui-table-cell-tint-color>
+        </ui-table>
+    </user-interface>
+</theme>
+
+

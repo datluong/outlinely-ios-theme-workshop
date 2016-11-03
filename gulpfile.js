@@ -44,6 +44,24 @@ gulp.task('theme-darkdev', function() {
     .pipe(gulp.dest('./dist'))
 });
 
+gulp.task('theme-maestro', function() {
+  return gulp.src('./src/theme-maestro.mustache')
+    .pipe(mustache({
+        accentColor: "hsb(45,80,84)",
+        tintColor: "hsb(45,80,84)",
+        hue: "45",
+        sat: "80",
+        lowsat: "60",
+        satp8: "88",
+        bright: "84",
+        lowbright: "40",
+        brights8: "76"
+    }))
+    .pipe(rename({
+        extname: ".xml",
+    }))
+    .pipe(gulp.dest('./dist'))
+});
 
 
     /**
@@ -54,6 +72,6 @@ gulp.task('markdown', function() {
                     .pipe(gulp.dest("templates/docs"));
 });**/
 
-gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev'], function() {
+gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro'], function() {
 });
 
