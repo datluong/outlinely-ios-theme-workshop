@@ -47,6 +47,7 @@ gulp.task('theme-darkdev', function() {
 gulp.task('theme-maestro', function() {
   return gulp.src('./src/theme-maestro.mustache')
     .pipe(mustache({
+        brand: "",
         accentColor: "hsb(45,80,84)",
         tintColor: "hsb(45,80,84)",
         hue: "45",
@@ -67,6 +68,7 @@ gulp.task('theme-maestro', function() {
 gulp.task('theme-maestrox', function() {
   return gulp.src('./src/theme-maestro.mustache')
     .pipe(mustache({
+        brand: " X",
         accentColor: "hsb({{hue}},80,84)",
         tintColor: "hsb({{hue}},80,84)",
         hue: "{{hue}}",
