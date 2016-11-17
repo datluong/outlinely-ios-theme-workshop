@@ -3,6 +3,7 @@
     <name>Darkdev</name>
     <type>dark</type>
     <background-color>#1a1a1a</background-color>
+    <highlight-background-color>#705c2f</highlight-background-color>
     <text-color>#cccccc</text-color>
     <selection-color>#4a4a4a</selection-color>
     <accent-color-one>#63caf0</accent-color-one>

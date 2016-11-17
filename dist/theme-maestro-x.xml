@@ -3,6 +3,7 @@
 <name>Maestro X</name>
     <type>dark</type>
     <background-color>hsb(0,0,16)</background-color>
+    <highlight-background-color>hsb({{hue}},60,40)</highlight-background-color>
     <text-color>hsb(0,0,85)</text-color>
     <selection-color>hsb({{hue}},60,40)</selection-color>
     <accent-color-one>hsb({{hue}},80,84)</accent-color-one>
