@@ -28,6 +28,8 @@
             <ui-navigation-bar-tint-color>hsb(0,0,10)</ui-navigation-bar-tint-color>
             <ui-navigation-bar-text-color>hsb(0,0,95)</ui-navigation-bar-text-color>
             <ui-navigation-bar-divider-color>hsb(0,0,24)</ui-navigation-bar-divider-color>
+            <ui-navigation-modal-tint-color>hsb(0,0,14)</ui-navigation-modal-tint-color>
+            <ui-navigation-textfield-background-color>hsb(0,0,30)</ui-navigation-textfield-background-color>
         </ui-navigation>
         <ui-table>
             <ui-table-header-background-color>hsb(0,0,14)</ui-table-header-background-color>
@@ -39,6 +41,8 @@
             <ui-table-cell-text-color>hsb(0,0,91)</ui-table-cell-text-color>
             <ui-table-cell-subtitle-text-color>hsb(0,0,80)</ui-table-cell-subtitle-text-color>
             <ui-table-cell-tint-color>hsb({{hue}},80,84)</ui-table-cell-tint-color>
+            <ui-table-highlight-background-color>hsb({{hue}},60,40)</ui-table-highlight-background-color>
+            <ui-table-highlight-text-color>hsb({{hue}},60,80)</ui-table-highlight-text-color>
         </ui-table>
     </user-interface>
 </theme>
