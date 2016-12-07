@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+    <name>Lucidity</name>
+    <type>light</type>
+    <background-color>#ffffff</background-color>
+    <text-color>#000000</text-color>
+    <selection-color>hsb(212,27,96)</selection-color>
+    <accent-color-one>hsb(212,100,91)</accent-color-one>
+    <accent-color-two>hsb(212,100,100)</accent-color-two>
+    <note-color>hsb(0,0,51)</note-color>
+    <caret-color>hsb(212,100,100)</caret-color>
+    <guide-color>hsb(0,0,92)</guide-color>
+    <expander-color>hsb(0,0,67)</expander-color>
+    <markup-color>hsb(0,0,61)</markup-color>
+    <checkmark-color>hsb(0,0,41)</checkmark-color>
+    <user-interface>
+        <ui-general>
+          <ui-general-divider-color>hsb(0,0,88)</ui-general-divider-color>
+        </ui-general>
+        <ui-toolbar>
+          <ui-toolbar-image-color>hsb(0,0,41)</ui-toolbar-image-color>
+          <ui-toolbar-tint-color>hsb(212,100,100)</ui-toolbar-tint-color>
+          <ui-toolbar-background-color>#ffffff</ui-toolbar-background-color>
+        </ui-toolbar>
+        <ui-navigation>
+          <ui-navigation-bar-tint-color>hsb(0,0,97)</ui-navigation-bar-tint-color>
+          <ui-navigation-bar-text-color>#000000</ui-navigation-bar-text-color>
+          <ui-navigation-bar-divider-color>hsb(0,0,85)</ui-navigation-bar-divider-color>
+          <ui-navigation-tint-color>hsb(212,100,100)</ui-navigation-tint-color>
+          <ui-navigation-modal-tint-color>hsb(0,0,97)</ui-navigation-modal-tint-color>
+          <ui-navigation-textfield-background-color>#ffffff</ui-navigation-textfield-background-color>
+        </ui-navigation>
+        <ui-table>
+            <ui-table-header-background-color>hsb(0,0,96)</ui-table-header-background-color>
+            <ui-table-header-text-color>#000000</ui-table-header-text-color>
+            <ui-table-divider-color>hsb(0,0,88)</ui-table-divider-color>
+            <ui-table-background-color>#ffffff</ui-table-background-color>
+            <ui-table-cell-active-background-color>hsb(212,98,98)</ui-table-cell-active-background-color>
+            <ui-table-cell-idle-background-color>hsb(0,0,76)</ui-table-cell-idle-background-color>
+            <ui-table-cell-text-color>hsb(0,0,1)</ui-table-cell-text-color>
+            <ui-table-cell-subtitle-text-color>hsb(0,0,51)</ui-table-cell-subtitle-text-color>
+            <ui-table-cell-tint-color>hsb(212,100,100)</ui-table-cell-tint-color>
+            <ui-table-highlight-background-color>hsb(212,2,100)</ui-table-highlight-background-color>
+            <ui-table-highlight-text-color>hsb(212,86,88)</ui-table-highlight-text-color>
+        </ui-table>
+    </user-interface>
+</theme>
+

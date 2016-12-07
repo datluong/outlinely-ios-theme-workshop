@@ -32,6 +32,19 @@ gulp.task('theme-ocean', function() {
     .pipe(gulp.dest('./dist'))
 });
 
+gulp.task('theme-lucidity', function() {
+  return gulp.src('./src/theme-lucidity.mustache')
+    .pipe(mustache({
+        accentColor: "hsb(212,100,100)",
+        hue: 212,
+        caretColor: "hsb(212,100,100)",
+    }))
+    .pipe(rename({
+        extname: ".xml"
+    }))
+    .pipe(gulp.dest('./dist'))
+});
+
 gulp.task('theme-darkdev', function() {
   return gulp.src('./src/theme-darkdev.mustache')
     .pipe(mustache({
@@ -86,6 +99,6 @@ gulp.task('theme-maestrox', function() {
     .pipe(gulp.dest('./dist'))
 });
 
-gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox'], function() {
+gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity'], function() {
 });
 
