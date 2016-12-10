@@ -11,6 +11,7 @@
     <caret-color>hsb(212,100,100)</caret-color>
     <guide-color>hsb(0,0,92)</guide-color>
     <expander-color>hsb(0,0,67)</expander-color>
+    <handle-bar-color>hsb(0,0,92)</handle-bar-color>
     <markup-color>hsb(0,0,61)</markup-color>
     <checkmark-color>hsb(0,0,41)</checkmark-color>
     <user-interface>
@@ -40,7 +41,7 @@
             <ui-table-cell-text-color>hsb(0,0,1)</ui-table-cell-text-color>
             <ui-table-cell-subtitle-text-color>hsb(0,0,51)</ui-table-cell-subtitle-text-color>
             <ui-table-cell-tint-color>hsb(212,100,100)</ui-table-cell-tint-color>
-            <ui-table-highlight-background-color>hsb(212,2,100)</ui-table-highlight-background-color>
+            <ui-table-highlight-background-color>hsb(212,22,100)</ui-table-highlight-background-color>
             <ui-table-highlight-text-color>hsb(212,86,88)</ui-table-highlight-text-color>
         </ui-table>
     </user-interface>

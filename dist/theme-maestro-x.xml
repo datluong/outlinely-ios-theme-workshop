@@ -12,6 +12,7 @@
     <caret-color>hsb({{hue}},88,84)</caret-color>
     <guide-color>hsb({{hue}},80,40)</guide-color>
     <expander-color>hsb({{hue}},80,84)</expander-color>
+    <handle-bar-color>hsb(0,0,36)</handle-bar-color>
     <markup-color>hsb({{hue}},80,84)</markup-color>
     <checkmark-color>hsb({{hue}},80,84)</checkmark-color>
     <user-interface>
