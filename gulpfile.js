@@ -52,6 +52,7 @@ gulp.task('theme-darkdev', function() {
         tintColor: "#1DA9F0"
     }))
     .pipe(rename({
+        basename: "theme-dark",
         extname: ".xml"
     }))
     .pipe(gulp.dest('./dist'))
