@@ -100,6 +100,28 @@ gulp.task('theme-maestrox', function() {
     .pipe(gulp.dest('./dist'))
 });
 
-gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity'], function() {
+gulp.task('macos-standard-dark', function() {
+  return gulp.src('./src/macos/theme-standard-dark.mustache')
+    .pipe(mustache({
+        accentColor: "#63caf0",
+        tintColor: "hsb(0,0,45)"
+    }))
+    .pipe(rename({
+        extname: ".xml"
+    }))
+    .pipe(gulp.dest('./dist/macos'))
+});
+
+gulp.task('macos-standard-light', function() {
+  return gulp.src('./src/macos/theme-standard-light.mustache')
+    .pipe(mustache({
+    }))
+    .pipe(rename({
+        extname: ".xml"
+    }))
+    .pipe(gulp.dest('./dist/macos'))
+});
+
+gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light'], function() {
 });
 

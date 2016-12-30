@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+    <name>Standard Dark</name>
+    <type>dark</type>
+    <background-color>#1a1a1a</background-color>
+    <text-color>#cccccc</text-color>
+    <highlight-background-color>#705c2f</highlight-background-color>
+    <selection-color>#4a4a4a</selection-color>
+    <accent-color-one>#63caf0</accent-color-one>
+    <accent-color-two>#63caf0</accent-color-two>
+    <note-color>#9c9c9c</note-color>
+    <guide-color>#363636</guide-color>
+    <expander-color>#686868</expander-color>
+    <markup-color>#686868</markup-color>
+    <checkmark-color>#686868</checkmark-color>
+    <user-interface>
+        <ui-general>
+            <ui-general-divider-color>hsb(0,0,25)</ui-general-divider-color>
+        </ui-general>
+        <ui-navigation>
+            <ui-navigation-tint-color>hsb(0,0,41)</ui-navigation-tint-color>
+            <ui-navigation-bar-tint-color>hsb(0,0,6)</ui-navigation-bar-tint-color>
+            <ui-navigation-bar-text-color>hsb(0,0,95)</ui-navigation-bar-text-color>
+            <ui-navigation-bar-divider-color>hsb(0,0,25)</ui-navigation-bar-divider-color>
+            <ui-navigation-modal-tint-color>hsb(0,0,8)</ui-navigation-modal-tint-color>
+            <ui-navigation-textfield-background-color>hsb(0,0,25)</ui-navigation-textfield-background-color>
+        </ui-navigation>
+        <ui-table>
+            <ui-table-header-background-color>hsb(0,0,8)</ui-table-header-background-color>
+            <ui-table-header-text-color>hsb(0,0,95)</ui-table-header-text-color>
+            <ui-table-divider-color>hsb(0,0,20)</ui-table-divider-color>
+            <ui-table-background-color>hsb(0,0,10)</ui-table-background-color>
+            <ui-table-cell-active-background-color>hsb(200,83,92)</ui-table-cell-active-background-color>
+            <ui-table-cell-idle-background-color>hsb(0,0,25)</ui-table-cell-idle-background-color>
+            <ui-table-cell-text-color>hsb(0,0,95)</ui-table-cell-text-color>
+            <ui-table-cell-subtitle-text-color>hsb(0,0,61)</ui-table-cell-subtitle-text-color>
+            <ui-table-cell-tint-color>hsb(0,0,45)</ui-table-cell-tint-color>
+            <ui-table-highlight-background-color>hsba(200,84,92,25)</ui-table-highlight-background-color>
+            <ui-table-highlight-text-color>hsb(200,64,88)</ui-table-highlight-text-color>
+        </ui-table>
+        <ui-sidebar>
+            <ui-sidebar-is-vibrant>false</ui-sidebar-is-vibrant>
+            <ui-sidebar-tint-color>hsb(0,0,45)</ui-sidebar-tint-color>
+            <ui-sidebar-active-tint-color>hsb(200,88,94)</ui-sidebar-active-tint-color>
+            <ui-sidebar-background-color>hsb(0,0,15)</ui-sidebar-background-color>
+            <ui-sidebar-cell-active-background-color>hsb(0,0,25)</ui-sidebar-cell-active-background-color>
+            <ui-sidebar-header-text-color>hsb(0,0,65)</ui-sidebar-header-text-color>
+            <ui-sidebar-cell-text-color>hsb(0,0,95)</ui-sidebar-cell-text-color>
+            <ui-sidebar-token-color>hsb(0,0,2)</ui-sidebar-token-color>
+            <ui-sidebar-token-text-color>hsb(0,0,95)</ui-sidebar-token-text-color>
+        </ui-sidebar>
+        <ui-dialog>
+            <ui-dialog-background-color>hsb(0,0,20)</ui-dialog-background-color>
+            <ui-dialog-alt-background-color>hsb(0,0,20)</ui-dialog-alt-background-color>
+            <ui-dialog-text-color>hsb(0,0,95)</ui-dialog-text-color>
+            <ui-dialog-alt-text-color>hsb(0,0,61)</ui-dialog-alt-text-color>
+            <ui-dialog-subtitle-text-color>hsb(0,0,57)</ui-dialog-subtitle-text-color>
+        </ui-dialog>
+    </user-interface>
+</theme>
+
