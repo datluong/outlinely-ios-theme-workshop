@@ -2,7 +2,7 @@
 <theme>
     <name>Thinkspace Golden</name>
     <type>light</type>
-    <background-color>#fbfbfb</background-color>
+    <background-color>hsb(0,0,98)</background-color>
     <text-color>#464646</text-color>
     <selection-color>#F5E8B3</selection-color>
     <accent-color-one>#E3BA24</accent-color-one>
@@ -19,7 +19,7 @@
         </ui-general>
         <ui-navigation>
           <ui-navigation-tint-color>hsb(0,0,61)</ui-navigation-tint-color>
-          <ui-navigation-bar-tint-color>hsb(0,0,65)</ui-navigation-bar-tint-color>
+          <ui-navigation-bar-tint-color>hsb(0,0,96)</ui-navigation-bar-tint-color>
           <ui-navigation-bar-text-color>hsb(0,0,21)</ui-navigation-bar-text-color>
           <ui-navigation-bar-divider-color>hsb(47,2,90)</ui-navigation-bar-divider-color>
           <ui-navigation-modal-tint-color>hsb(0,0,98)</ui-navigation-modal-tint-color>
@@ -30,9 +30,9 @@
             <ui-table-header-text-color>#000000</ui-table-header-text-color>
             <ui-table-divider-color>hsb(47,2,92)</ui-table-divider-color>
             <ui-table-background-color>hsb(0,0,98)</ui-table-background-color>
-            <ui-table-cell-active-background-color></ui-table-cell-active-background-color>
-            <ui-table-cell-idle-background-color>hsb(47,2,92)</ui-table-cell-idle-background-color>
-            <ui-table-cell-text-color>hsb(0,0,27)</ui-table-cell-text-color>
+            <ui-table-cell-active-background-color>hsb(47,84,90)</ui-table-cell-active-background-color>
+            <ui-table-cell-idle-background-color>hsb(47,2,80)</ui-table-cell-idle-background-color>
+            <ui-table-cell-text-color>hsb(0,0,21)</ui-table-cell-text-color>
             <ui-table-cell-subtitle-text-color>hsb(0,0,50)</ui-table-cell-subtitle-text-color>
             <ui-table-cell-tint-color>hsb(0,0,65)</ui-table-cell-tint-color>
             <ui-table-highlight-background-color>hsba(47,30,96,36)</ui-table-highlight-background-color>
@@ -60,5 +60,3 @@
         </ui-dialog>
     </user-interface>
 </theme>
-
-

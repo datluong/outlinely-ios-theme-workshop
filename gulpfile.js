@@ -133,7 +133,19 @@ gulp.task('macos-thinkspace-golden', function() {
     .pipe(gulp.dest('./dist/macos'))
 });
 
+gulp.task('macos-maestro', function() {
+  return gulp.src('./src/macos/unitheme-maestro.mustache')
+    .pipe(mustache({
+        hue: "45"
+    }))
+    .pipe(rename({
+        basename: "theme-maestro",
+        extname: ".xml"
+    }))
+    .pipe(gulp.dest('./dist/macos'))
+});
 
-gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden'], function() {
+
+gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden', 'macos-maestro'], function() {
 });
 
