@@ -122,6 +122,18 @@ gulp.task('macos-standard-light', function() {
     .pipe(gulp.dest('./dist/macos'))
 });
 
-gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light'], function() {
+gulp.task('macos-thinkspace-golden', function() {
+  return gulp.src('./src/macos/unitheme-thinkspace-golden.mustache')
+    .pipe(mustache({
+    }))
+    .pipe(rename({
+        basename: "theme-thinkspace-golden",
+        extname: ".xml"
+    }))
+    .pipe(gulp.dest('./dist/macos'))
+});
+
+
+gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden'], function() {
 });
 

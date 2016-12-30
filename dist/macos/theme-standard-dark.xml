@@ -51,10 +51,12 @@
         </ui-sidebar>
         <ui-dialog>
             <ui-dialog-background-color>hsb(0,0,20)</ui-dialog-background-color>
-            <ui-dialog-alt-background-color>hsb(0,0,20)</ui-dialog-alt-background-color>
+            <ui-dialog-alt-background-color>hsb(0,0,32)</ui-dialog-alt-background-color>
             <ui-dialog-text-color>hsb(0,0,95)</ui-dialog-text-color>
-            <ui-dialog-alt-text-color>hsb(0,0,61)</ui-dialog-alt-text-color>
-            <ui-dialog-subtitle-text-color>hsb(0,0,57)</ui-dialog-subtitle-text-color>
+            <ui-dialog-alt-text-color>hsb(0,0,75)</ui-dialog-alt-text-color>
+            <ui-dialog-subtitle-text-color>hsb(0,0,61)</ui-dialog-subtitle-text-color>
+            <ui-dialog-alt-highlight-text-color>hsb(200,98,92)</ui-dialog-alt-highlight-text-color>
+            <ui-dialog-alt-highlight-background-color>hsba(200,30,92,25)</ui-dialog-alt-highlight-background-color>
         </ui-dialog>
     </user-interface>
 </theme>
