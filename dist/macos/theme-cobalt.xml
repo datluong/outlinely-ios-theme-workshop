@@ -13,9 +13,11 @@
     <caret-color>#FFC600</caret-color>
     <guide-color>#3B5364</guide-color>
     <expander-color>#5A7B92</expander-color>
-    <markup-color>#A1B8CC</markup-color>
+    <markup-color>#FFC700</markup-color>
     <checkmark-color>#3AD900</checkmark-color>
-        <user-interface>
+    <gutter-text-color>#8B9AA4</gutter-text-color>
+    <title-color>#FFC700</title-color>
+    <user-interface>
         <ui-general>
             <ui-general-divider-color>hsb(205,53,16)</ui-general-divider-color>
         </ui-general>
@@ -30,7 +32,7 @@
         <ui-table>
             <ui-table-header-background-color>hsb(205,66,29)</ui-table-header-background-color>
             <ui-table-header-text-color>hsb(0,0,95)</ui-table-header-text-color>
-            <ui-table-divider-color>hsb(205,53,20)</ui-table-divider-color>
+            <ui-table-divider-color>hsb(205,53,18)</ui-table-divider-color>
             <ui-table-background-color>hsb(205,66,29)</ui-table-background-color>
             <ui-table-cell-active-background-color>hsb(205,71,37)</ui-table-cell-active-background-color>
             <ui-table-cell-idle-background-color>hsb(205,31,31)</ui-table-cell-idle-background-color>
@@ -52,13 +54,17 @@
             <ui-sidebar-token-text-color>hsb(0,0,95)</ui-sidebar-token-text-color>
         </ui-sidebar>
         <ui-dialog>
-            <ui-dialog-background-color>hsb(205,53,24)</ui-dialog-background-color>
+            <ui-dialog-is-unique>true</ui-dialog-is-unique>
+            <ui-dialog-background-color>hsb(205,53,26)</ui-dialog-background-color>
             <ui-dialog-alt-background-color>hsb(205,53,18)</ui-dialog-alt-background-color>
             <ui-dialog-text-color>hsb(47,100,100)</ui-dialog-text-color>
             <ui-dialog-alt-text-color>hsb(205,15,64)</ui-dialog-alt-text-color>
+            <ui-dialog-selection-text-color>hsb(47,100,100)</ui-dialog-selection-text-color>
+            <ui-dialog-selection-alt-text-color>hsb(205,15,64)</ui-dialog-selection-alt-text-color>
             <ui-dialog-subtitle-text-color>hsb(205,15,55)</ui-dialog-subtitle-text-color>
-            <ui-dialog-alt-highlight-text-color>hsb(47,100,100)</ui-dialog-alt-highlight-text-color>
-            <ui-dialog-alt-highlight-background-color>hsba(148,52,100,25)</ui-dialog-alt-highlight-background-color>
+            <ui-dialog-alt-selection-background-color>hsb(47,100,100)</ui-dialog-alt-selection-background-color>
+            <ui-dialog-alt-highlight-text-color>hsb(37,100,100)</ui-dialog-alt-highlight-text-color>
+            <ui-dialog-alt-highlight-background-color>hsba(47,50,100,25)</ui-dialog-alt-highlight-background-color>
         </ui-dialog>
     </user-interface>
 </theme>
