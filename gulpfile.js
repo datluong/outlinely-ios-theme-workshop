@@ -170,4 +170,3 @@ gulp.task('macos-solarized-light', function() {
 
 gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden', 'macos-maestro', 'macos-cobalt', 'macos-solarized-light'], function() {
 });
-
