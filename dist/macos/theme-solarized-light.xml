@@ -18,7 +18,7 @@
         </ui-general>
         <ui-navigation>
             <ui-navigation-tint-color>hsb(196,23,51)</ui-navigation-tint-color>
-            <ui-navigation-active-tint-color>hsb(194,25,46)</ui-navigation-active-tint-color>
+            <ui-navigation-active-tint-color>#b58900</ui-navigation-active-tint-color>
             <ui-navigation-bar-tint-color>hsb(46,11,97)</ui-navigation-bar-tint-color>
             <ui-navigation-bar-text-color>hsb(196,23,51)</ui-navigation-bar-text-color>
             <ui-navigation-bar-divider-color>hsb(46,11,80)</ui-navigation-bar-divider-color>
@@ -48,6 +48,7 @@
             <ui-sidebar-cell-text-color>hsb(46,10,99)</ui-sidebar-cell-text-color>
             <ui-sidebar-token-color>hsb(196,25,46)</ui-sidebar-token-color>
             <ui-sidebar-token-text-color>hsb(46,11,93)</ui-sidebar-token-text-color>
+            <ui-sidebar-divider-color>hsb(196,89,32)</ui-sidebar-divider-color>
         </ui-sidebar>
         <ui-dialog>
             <ui-dialog-is-unique>true</ui-dialog-is-unique>
@@ -56,7 +57,9 @@
             <ui-dialog-text-color>hsb(192,100,21)</ui-dialog-text-color>
             <ui-dialog-alt-text-color>hsb(194,25,46)</ui-dialog-alt-text-color>
             <ui-dialog-subtitle-text-color>hsb(180,9,63)</ui-dialog-subtitle-text-color>
-            <ui-dialog-alt-selection-background-color>hsb(196,23,51)</ui-dialog-alt-selection-background-color>
+            <ui-dialog-selection-text-color>#fdf6e3</ui-dialog-selection-text-color>
+            <ui-dialog-selection-subtitle-text-color>hsba(44,10,99,60)</ui-dialog-selection-subtitle-text-color>
+            <ui-dialog-alt-selection-background-color>#268bd2</ui-dialog-alt-selection-background-color>
             <ui-dialog-alt-highlight-text-color>hsb(196,25,46)</ui-dialog-alt-highlight-text-color>
             <ui-dialog-alt-highlight-background-color>hsba(180,9,63,25)</ui-dialog-alt-highlight-background-color>
         </ui-dialog>
