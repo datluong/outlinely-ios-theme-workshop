@@ -157,7 +157,17 @@ gulp.task('macos-cobalt', function() {
     .pipe(gulp.dest('./dist/macos'))
 });
 
+gulp.task('macos-solarized-light', function() {
+  return gulp.src('./src/macos/unitheme-solarized-light.mustache')
+    .pipe(mustache({
+    }))
+    .pipe(rename({
+        basename: "theme-solarized-light",
+        extname: ".xml"
+    }))
+    .pipe(gulp.dest('./dist/macos'))
+});
 
-gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden', 'macos-maestro', 'macos-cobalt'], function() {
+gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden', 'macos-maestro', 'macos-cobalt', 'macos-solarized-light'], function() {
 });
 
