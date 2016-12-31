@@ -145,7 +145,19 @@ gulp.task('macos-maestro', function() {
     .pipe(gulp.dest('./dist/macos'))
 });
 
+gulp.task('macos-cobalt', function() {
+  return gulp.src('./src/macos/unitheme-cobalt.mustache')
+    .pipe(mustache({
+        hue: "205"
+    }))
+    .pipe(rename({
+        basename: "theme-cobalt",
+        extname: ".xml"
+    }))
+    .pipe(gulp.dest('./dist/macos'))
+});
 
-gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden', 'macos-maestro'], function() {
+
+gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden', 'macos-maestro', 'macos-cobalt'], function() {
 });
 
