@@ -168,5 +168,17 @@ gulp.task('macos-solarized-light', function() {
     .pipe(gulp.dest('./dist/macos'))
 });
 
-gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden', 'macos-maestro', 'macos-cobalt', 'macos-solarized-light'], function() {
+gulp.task('macos-zenburn', function() {
+  return gulp.src('./src/macos/unitheme-zenburn.mustache')
+    .pipe(mustache({
+    }))
+    .pipe(rename({
+        basename: "theme-zenburn",
+        extname: ".xml"
+    }))
+    .pipe(gulp.dest('./dist/macos'))
+});
+
+
+gulp.task('default', ['theme', 'theme-ocean', 'theme-darkdev', 'theme-maestro', 'theme-maestrox', 'theme-lucidity', 'macos-standard-dark', 'macos-standard-light', 'macos-thinkspace-golden', 'macos-maestro', 'macos-cobalt', 'macos-solarized-light', 'macos-zenburn'], function() {
 });
