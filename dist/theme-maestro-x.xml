@@ -45,6 +45,16 @@
             <ui-table-highlight-background-color>hsb({{hue}},60,40)</ui-table-highlight-background-color>
             <ui-table-highlight-text-color>hsb({{hue}},60,80)</ui-table-highlight-text-color>
         </ui-table>
+        <ui-dialog>
+            <ui-dialog-background-color>hsb(0,0,30)</ui-dialog-background-color>
+            <ui-dialog-alt-background-color>hsb(0,0,30)</ui-dialog-alt-background-color>
+            <ui-dialog-text-color>hsb(0,0,95)</ui-dialog-text-color>
+            <ui-dialog-alt-text-color>hsb(0,0,75)</ui-dialog-alt-text-color>
+            <ui-dialog-subtitle-text-color>hsb(0,0,60)</ui-dialog-subtitle-text-color>
+            <ui-dialog-selection-text-color>white</ui-dialog-selection-text-color>
+            <ui-dialog-selection-subtitle-text-color>hsba(0,0,100,60)</ui-dialog-selection-subtitle-text-color>
+            <ui-dialog-selection-alt-text-color>hsba(0,0,100,60)</ui-dialog-selection-alt-text-color>
+        </ui-dialog>
     </user-interface>
 </theme>
 
