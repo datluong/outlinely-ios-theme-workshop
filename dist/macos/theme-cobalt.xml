@@ -66,6 +66,7 @@
             <ui-dialog-alt-selection-background-color>hsb(47,100,100)</ui-dialog-alt-selection-background-color>
             <ui-dialog-alt-highlight-text-color>hsb(37,100,100)</ui-dialog-alt-highlight-text-color>
             <ui-dialog-alt-highlight-background-color>hsba(47,50,100,25)</ui-dialog-alt-highlight-background-color>
+            <ui-dialog-search-indicator-color>#7BC6F1</ui-dialog-search-indicator-color>
         </ui-dialog>
     </user-interface>
 </theme>

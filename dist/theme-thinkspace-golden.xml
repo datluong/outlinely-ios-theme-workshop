@@ -44,5 +44,15 @@
             <ui-table-highlight-background-color>hsb(47,22,96)</ui-table-highlight-background-color>
             <ui-table-highlight-text-color>hsb(47,84,80)</ui-table-highlight-text-color>
         </ui-table>
+        <ui-dialog>
+            <ui-dialog-background-color>hsb(0,0,98)</ui-dialog-background-color>
+            <ui-dialog-alt-background-color>hsb(0,0,96)</ui-dialog-alt-background-color>
+            <ui-dialog-text-color>hsb(0,0,21)</ui-dialog-text-color>
+            <ui-dialog-alt-text-color>hsb(0,0,50)</ui-dialog-alt-text-color>
+            <ui-dialog-subtitle-text-color>hsb(0,0,50)</ui-dialog-subtitle-text-color>
+            <ui-dialog-selection-text-color>white</ui-dialog-selection-text-color>
+            <ui-dialog-selection-subtitle-text-color>hsba(0,0,100,68)</ui-dialog-selection-subtitle-text-color>
+            <ui-dialog-selection-alt-text-color>hsba(0,0,100,68)</ui-dialog-selection-alt-text-color>
+        </ui-dialog>
     </user-interface>
 </theme>
